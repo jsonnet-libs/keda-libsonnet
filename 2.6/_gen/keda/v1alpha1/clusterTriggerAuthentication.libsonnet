@@ -50,7 +50,9 @@
   new(name): {
     apiVersion: 'keda.sh/v1alpha1',
     kind: 'ClusterTriggerAuthentication',
-  } + self.metadata.withName(name=name),
+  } + self.metadata.withName(name=name) + self.metadata.withAnnotations(annotations={
+    'tanka.dev/namespaced': 'true',
+  }),
   '#spec':: d.obj(help='"TriggerAuthenticationSpec defines the various ways to authenticate"'),
   spec: {
     '#hashiCorpVault':: d.obj(help='"HashiCorpVault is used to authenticate using Hashicorp Vault"'),
