@@ -22,8 +22,6 @@ permalink: /2.6/keda/v1alpha1/scaledObject/
   * [`fn withGeneration(generation)`](#fn-metadatawithgeneration)
   * [`fn withLabels(labels)`](#fn-metadatawithlabels)
   * [`fn withLabelsMixin(labels)`](#fn-metadatawithlabelsmixin)
-  * [`fn withManagedFields(managedFields)`](#fn-metadatawithmanagedfields)
-  * [`fn withManagedFieldsMixin(managedFields)`](#fn-metadatawithmanagedfieldsmixin)
   * [`fn withName(name)`](#fn-metadatawithname)
   * [`fn withNamespace(namespace)`](#fn-metadatawithnamespace)
   * [`fn withOwnerReferences(ownerReferences)`](#fn-metadatawithownerreferences)
@@ -48,11 +46,19 @@ permalink: /2.6/keda/v1alpha1/scaledObject/
           * [`fn withPoliciesMixin(policies)`](#fn-specadvancedhorizontalpodautoscalerconfigbehaviorscaledownwithpoliciesmixin)
           * [`fn withSelectPolicy(selectPolicy)`](#fn-specadvancedhorizontalpodautoscalerconfigbehaviorscaledownwithselectpolicy)
           * [`fn withStabilizationWindowSeconds(stabilizationWindowSeconds)`](#fn-specadvancedhorizontalpodautoscalerconfigbehaviorscaledownwithstabilizationwindowseconds)
+          * [`obj spec.advanced.horizontalPodAutoscalerConfig.behavior.scaleDown.policies`](#obj-specadvancedhorizontalpodautoscalerconfigbehaviorscaledownpolicies)
+            * [`fn withPeriodSeconds(periodSeconds)`](#fn-specadvancedhorizontalpodautoscalerconfigbehaviorscaledownpolicieswithperiodseconds)
+            * [`fn withType(type)`](#fn-specadvancedhorizontalpodautoscalerconfigbehaviorscaledownpolicieswithtype)
+            * [`fn withValue(value)`](#fn-specadvancedhorizontalpodautoscalerconfigbehaviorscaledownpolicieswithvalue)
         * [`obj spec.advanced.horizontalPodAutoscalerConfig.behavior.scaleUp`](#obj-specadvancedhorizontalpodautoscalerconfigbehaviorscaleup)
           * [`fn withPolicies(policies)`](#fn-specadvancedhorizontalpodautoscalerconfigbehaviorscaleupwithpolicies)
           * [`fn withPoliciesMixin(policies)`](#fn-specadvancedhorizontalpodautoscalerconfigbehaviorscaleupwithpoliciesmixin)
           * [`fn withSelectPolicy(selectPolicy)`](#fn-specadvancedhorizontalpodautoscalerconfigbehaviorscaleupwithselectpolicy)
           * [`fn withStabilizationWindowSeconds(stabilizationWindowSeconds)`](#fn-specadvancedhorizontalpodautoscalerconfigbehaviorscaleupwithstabilizationwindowseconds)
+          * [`obj spec.advanced.horizontalPodAutoscalerConfig.behavior.scaleUp.policies`](#obj-specadvancedhorizontalpodautoscalerconfigbehaviorscaleuppolicies)
+            * [`fn withPeriodSeconds(periodSeconds)`](#fn-specadvancedhorizontalpodautoscalerconfigbehaviorscaleuppolicieswithperiodseconds)
+            * [`fn withType(type)`](#fn-specadvancedhorizontalpodautoscalerconfigbehaviorscaleuppolicieswithtype)
+            * [`fn withValue(value)`](#fn-specadvancedhorizontalpodautoscalerconfigbehaviorscaleuppolicieswithvalue)
   * [`obj spec.fallback`](#obj-specfallback)
     * [`fn withFailureThreshold(failureThreshold)`](#fn-specfallbackwithfailurethreshold)
     * [`fn withReplicas(replicas)`](#fn-specfallbackwithreplicas)
@@ -61,6 +67,15 @@ permalink: /2.6/keda/v1alpha1/scaledObject/
     * [`fn withEnvSourceContainerName(envSourceContainerName)`](#fn-specscaletargetrefwithenvsourcecontainername)
     * [`fn withKind(kind)`](#fn-specscaletargetrefwithkind)
     * [`fn withName(name)`](#fn-specscaletargetrefwithname)
+  * [`obj spec.triggers`](#obj-spectriggers)
+    * [`fn withFallback(fallback)`](#fn-spectriggerswithfallback)
+    * [`fn withMetadata(metadata)`](#fn-spectriggerswithmetadata)
+    * [`fn withMetadataMixin(metadata)`](#fn-spectriggerswithmetadatamixin)
+    * [`fn withName(name)`](#fn-spectriggerswithname)
+    * [`fn withType(type)`](#fn-spectriggerswithtype)
+    * [`obj spec.triggers.authenticationRef`](#obj-spectriggersauthenticationref)
+      * [`fn withKind(kind)`](#fn-spectriggersauthenticationrefwithkind)
+      * [`fn withName(name)`](#fn-spectriggersauthenticationrefwithname)
 
 ## Fields
 
@@ -175,24 +190,6 @@ withLabelsMixin(labels)
 ```
 
 "Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels"
-
-**Note:** This function appends passed data to existing values
-
-### fn metadata.withManagedFields
-
-```ts
-withManagedFields(managedFields)
-```
-
-"ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn't need to set or understand this field. A workflow can be the user's name, a controller's name, or the name of a specific apply path like \"ci-cd\". The set of fields is always in the version that the workflow used when modifying the object."
-
-### fn metadata.withManagedFieldsMixin
-
-```ts
-withManagedFieldsMixin(managedFields)
-```
-
-"ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn't need to set or understand this field. A workflow can be the user's name, a controller's name, or the name of a specific apply path like \"ci-cd\". The set of fields is always in the version that the workflow used when modifying the object."
 
 **Note:** This function appends passed data to existing values
 
@@ -374,6 +371,34 @@ withStabilizationWindowSeconds(stabilizationWindowSeconds)
 
 "StabilizationWindowSeconds is the number of seconds for which past recommendations should be considered while scaling up or scaling down. StabilizationWindowSeconds must be greater than or equal to zero and less than or equal to 3600 (one hour). If not set, use the default values: - For scale up: 0 (i.e. no stabilization is done). - For scale down: 300 (i.e. the stabilization window is 300 seconds long)."
 
+## obj spec.advanced.horizontalPodAutoscalerConfig.behavior.scaleDown.policies
+
+"policies is a list of potential scaling polices which can be used during scaling. At least one policy must be specified, otherwise the HPAScalingRules will be discarded as invalid"
+
+### fn spec.advanced.horizontalPodAutoscalerConfig.behavior.scaleDown.policies.withPeriodSeconds
+
+```ts
+withPeriodSeconds(periodSeconds)
+```
+
+"PeriodSeconds specifies the window of time for which the policy should hold true. PeriodSeconds must be greater than zero and less than or equal to 1800 (30 min)."
+
+### fn spec.advanced.horizontalPodAutoscalerConfig.behavior.scaleDown.policies.withType
+
+```ts
+withType(type)
+```
+
+"Type is used to specify the scaling policy."
+
+### fn spec.advanced.horizontalPodAutoscalerConfig.behavior.scaleDown.policies.withValue
+
+```ts
+withValue(value)
+```
+
+"Value contains the amount of change which is permitted by the policy. It must be greater than zero"
+
 ## obj spec.advanced.horizontalPodAutoscalerConfig.behavior.scaleUp
 
 "scaleUp is scaling policy for scaling Up. If not set, the default value is the higher of:   * increase no more than 4 pods per 60 seconds   * double the number of pods per 60 seconds No stabilization is used."
@@ -411,6 +436,34 @@ withStabilizationWindowSeconds(stabilizationWindowSeconds)
 ```
 
 "StabilizationWindowSeconds is the number of seconds for which past recommendations should be considered while scaling up or scaling down. StabilizationWindowSeconds must be greater than or equal to zero and less than or equal to 3600 (one hour). If not set, use the default values: - For scale up: 0 (i.e. no stabilization is done). - For scale down: 300 (i.e. the stabilization window is 300 seconds long)."
+
+## obj spec.advanced.horizontalPodAutoscalerConfig.behavior.scaleUp.policies
+
+"policies is a list of potential scaling polices which can be used during scaling. At least one policy must be specified, otherwise the HPAScalingRules will be discarded as invalid"
+
+### fn spec.advanced.horizontalPodAutoscalerConfig.behavior.scaleUp.policies.withPeriodSeconds
+
+```ts
+withPeriodSeconds(periodSeconds)
+```
+
+"PeriodSeconds specifies the window of time for which the policy should hold true. PeriodSeconds must be greater than zero and less than or equal to 1800 (30 min)."
+
+### fn spec.advanced.horizontalPodAutoscalerConfig.behavior.scaleUp.policies.withType
+
+```ts
+withType(type)
+```
+
+"Type is used to specify the scaling policy."
+
+### fn spec.advanced.horizontalPodAutoscalerConfig.behavior.scaleUp.policies.withValue
+
+```ts
+withValue(value)
+```
+
+"Value contains the amount of change which is permitted by the policy. It must be greater than zero"
 
 ## obj spec.fallback
 
@@ -461,6 +514,72 @@ withKind(kind)
 
 
 ### fn spec.scaleTargetRef.withName
+
+```ts
+withName(name)
+```
+
+
+
+## obj spec.triggers
+
+
+
+### fn spec.triggers.withFallback
+
+```ts
+withFallback(fallback)
+```
+
+
+
+### fn spec.triggers.withMetadata
+
+```ts
+withMetadata(metadata)
+```
+
+
+
+### fn spec.triggers.withMetadataMixin
+
+```ts
+withMetadataMixin(metadata)
+```
+
+
+
+**Note:** This function appends passed data to existing values
+
+### fn spec.triggers.withName
+
+```ts
+withName(name)
+```
+
+
+
+### fn spec.triggers.withType
+
+```ts
+withType(type)
+```
+
+
+
+## obj spec.triggers.authenticationRef
+
+"ScaledObjectAuthRef points to the TriggerAuthentication or ClusterTriggerAuthentication object that is used to authenticate the scaler with the environment"
+
+### fn spec.triggers.authenticationRef.withKind
+
+```ts
+withKind(kind)
+```
+
+"Kind of the resource being referred to. Defaults to TriggerAuthentication."
+
+### fn spec.triggers.authenticationRef.withName
 
 ```ts
 withName(name)

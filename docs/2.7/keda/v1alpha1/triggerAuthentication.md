@@ -22,8 +22,6 @@ permalink: /2.7/keda/v1alpha1/triggerAuthentication/
   * [`fn withGeneration(generation)`](#fn-metadatawithgeneration)
   * [`fn withLabels(labels)`](#fn-metadatawithlabels)
   * [`fn withLabelsMixin(labels)`](#fn-metadatawithlabelsmixin)
-  * [`fn withManagedFields(managedFields)`](#fn-metadatawithmanagedfields)
-  * [`fn withManagedFieldsMixin(managedFields)`](#fn-metadatawithmanagedfieldsmixin)
   * [`fn withName(name)`](#fn-metadatawithname)
   * [`fn withNamespace(namespace)`](#fn-metadatawithnamespace)
   * [`fn withOwnerReferences(ownerReferences)`](#fn-metadatawithownerreferences)
@@ -52,6 +50,14 @@ permalink: /2.7/keda/v1alpha1/triggerAuthentication/
           * [`obj spec.azureKeyVault.credentials.clientSecret.valueFrom.secretKeyRef`](#obj-specazurekeyvaultcredentialsclientsecretvaluefromsecretkeyref)
             * [`fn withKey(key)`](#fn-specazurekeyvaultcredentialsclientsecretvaluefromsecretkeyrefwithkey)
             * [`fn withName(name)`](#fn-specazurekeyvaultcredentialsclientsecretvaluefromsecretkeyrefwithname)
+    * [`obj spec.azureKeyVault.secrets`](#obj-specazurekeyvaultsecrets)
+      * [`fn withName(name)`](#fn-specazurekeyvaultsecretswithname)
+      * [`fn withParameter(parameter)`](#fn-specazurekeyvaultsecretswithparameter)
+      * [`fn withVersion(version)`](#fn-specazurekeyvaultsecretswithversion)
+  * [`obj spec.env`](#obj-specenv)
+    * [`fn withContainerName(containerName)`](#fn-specenvwithcontainername)
+    * [`fn withName(name)`](#fn-specenvwithname)
+    * [`fn withParameter(parameter)`](#fn-specenvwithparameter)
   * [`obj spec.hashiCorpVault`](#obj-spechashicorpvault)
     * [`fn withAddress(address)`](#fn-spechashicorpvaultwithaddress)
     * [`fn withAuthentication(authentication)`](#fn-spechashicorpvaultwithauthentication)
@@ -63,8 +69,16 @@ permalink: /2.7/keda/v1alpha1/triggerAuthentication/
     * [`obj spec.hashiCorpVault.credential`](#obj-spechashicorpvaultcredential)
       * [`fn withServiceAccount(serviceAccount)`](#fn-spechashicorpvaultcredentialwithserviceaccount)
       * [`fn withToken(token)`](#fn-spechashicorpvaultcredentialwithtoken)
+    * [`obj spec.hashiCorpVault.secrets`](#obj-spechashicorpvaultsecrets)
+      * [`fn withKey(key)`](#fn-spechashicorpvaultsecretswithkey)
+      * [`fn withParameter(parameter)`](#fn-spechashicorpvaultsecretswithparameter)
+      * [`fn withPath(path)`](#fn-spechashicorpvaultsecretswithpath)
   * [`obj spec.podIdentity`](#obj-specpodidentity)
     * [`fn withProvider(provider)`](#fn-specpodidentitywithprovider)
+  * [`obj spec.secretTargetRef`](#obj-specsecrettargetref)
+    * [`fn withKey(key)`](#fn-specsecrettargetrefwithkey)
+    * [`fn withName(name)`](#fn-specsecrettargetrefwithname)
+    * [`fn withParameter(parameter)`](#fn-specsecrettargetrefwithparameter)
 
 ## Fields
 
@@ -179,24 +193,6 @@ withLabelsMixin(labels)
 ```
 
 "Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels"
-
-**Note:** This function appends passed data to existing values
-
-### fn metadata.withManagedFields
-
-```ts
-withManagedFields(managedFields)
-```
-
-"ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn't need to set or understand this field. A workflow can be the user's name, a controller's name, or the name of a specific apply path like \"ci-cd\". The set of fields is always in the version that the workflow used when modifying the object."
-
-### fn metadata.withManagedFieldsMixin
-
-```ts
-withManagedFieldsMixin(managedFields)
-```
-
-"ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn't need to set or understand this field. A workflow can be the user's name, a controller's name, or the name of a specific apply path like \"ci-cd\". The set of fields is always in the version that the workflow used when modifying the object."
 
 **Note:** This function appends passed data to existing values
 
@@ -404,6 +400,62 @@ withName(name)
 
 
 
+## obj spec.azureKeyVault.secrets
+
+
+
+### fn spec.azureKeyVault.secrets.withName
+
+```ts
+withName(name)
+```
+
+
+
+### fn spec.azureKeyVault.secrets.withParameter
+
+```ts
+withParameter(parameter)
+```
+
+
+
+### fn spec.azureKeyVault.secrets.withVersion
+
+```ts
+withVersion(version)
+```
+
+
+
+## obj spec.env
+
+
+
+### fn spec.env.withContainerName
+
+```ts
+withContainerName(containerName)
+```
+
+
+
+### fn spec.env.withName
+
+```ts
+withName(name)
+```
+
+
+
+### fn spec.env.withParameter
+
+```ts
+withParameter(parameter)
+```
+
+
+
 ## obj spec.hashiCorpVault
 
 "HashiCorpVault is used to authenticate using Hashicorp Vault"
@@ -486,6 +538,34 @@ withToken(token)
 
 
 
+## obj spec.hashiCorpVault.secrets
+
+
+
+### fn spec.hashiCorpVault.secrets.withKey
+
+```ts
+withKey(key)
+```
+
+
+
+### fn spec.hashiCorpVault.secrets.withParameter
+
+```ts
+withParameter(parameter)
+```
+
+
+
+### fn spec.hashiCorpVault.secrets.withPath
+
+```ts
+withPath(path)
+```
+
+
+
 ## obj spec.podIdentity
 
 "AuthPodIdentity allows users to select the platform native identity mechanism"
@@ -497,3 +577,30 @@ withProvider(provider)
 ```
 
 "PodIdentityProvider contains the list of providers"
+
+## obj spec.secretTargetRef
+
+
+
+### fn spec.secretTargetRef.withKey
+
+```ts
+withKey(key)
+```
+
+
+
+### fn spec.secretTargetRef.withName
+
+```ts
+withName(name)
+```
+
+
+
+### fn spec.secretTargetRef.withParameter
+
+```ts
+withParameter(parameter)
+```
+
