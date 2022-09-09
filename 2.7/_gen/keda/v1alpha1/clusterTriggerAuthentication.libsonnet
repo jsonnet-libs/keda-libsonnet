@@ -47,7 +47,7 @@
     apiVersion: 'keda.sh/v1alpha1',
     kind: 'ClusterTriggerAuthentication',
   } + self.metadata.withName(name=name) + self.metadata.withAnnotations(annotations={
-    'tanka.dev/namespaced': 'true',
+    'tanka.dev/namespaced': 'false',
   }),
   '#spec':: d.obj(help='"TriggerAuthenticationSpec defines the various ways to authenticate"'),
   spec: {
