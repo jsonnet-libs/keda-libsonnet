@@ -61,7 +61,6 @@ permalink: /2.9/keda/v1alpha1/scaledJob/
           * [`fn withValues(values)`](#fn-specjobtargetrefpodfailurepolicyrulesonexitcodeswithvalues)
           * [`fn withValuesMixin(values)`](#fn-specjobtargetrefpodfailurepolicyrulesonexitcodeswithvaluesmixin)
         * [`obj spec.jobTargetRef.podFailurePolicy.rules.onPodConditions`](#obj-specjobtargetrefpodfailurepolicyrulesonpodconditions)
-          * [`fn withStatus(status)`](#fn-specjobtargetrefpodfailurepolicyrulesonpodconditionswithstatus)
           * [`fn withType(type)`](#fn-specjobtargetrefpodfailurepolicyrulesonpodconditionswithtype)
     * [`obj spec.jobTargetRef.selector`](#obj-specjobtargetrefselector)
       * [`fn withMatchExpressions(matchExpressions)`](#fn-specjobtargetrefselectorwithmatchexpressions)
@@ -1665,14 +1664,6 @@ withValuesMixin(values)
 ## obj spec.jobTargetRef.podFailurePolicy.rules.onPodConditions
 
 "Represents the requirement on the pod conditions. The requirement is represented as a list of pod condition patterns. The requirement is satisfied if at least one pattern matches an actual pod condition. At most 20 elements are allowed."
-
-### fn spec.jobTargetRef.podFailurePolicy.rules.onPodConditions.withStatus
-
-```ts
-withStatus(status)
-```
-
-"Specifies the required Pod condition status. To match a pod condition it is required that the specified status equals the pod condition status. Defaults to True."
 
 ### fn spec.jobTargetRef.podFailurePolicy.rules.onPodConditions.withType
 

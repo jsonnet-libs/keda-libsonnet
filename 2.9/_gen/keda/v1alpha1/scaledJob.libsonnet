@@ -68,8 +68,6 @@
           },
           '#onPodConditions':: d.obj(help='"Represents the requirement on the pod conditions. The requirement is represented as a list of pod condition patterns. The requirement is satisfied if at least one pattern matches an actual pod condition. At most 20 elements are allowed."'),
           onPodConditions: {
-            '#withStatus':: d.fn(help='"Specifies the required Pod condition status. To match a pod condition it is required that the specified status equals the pod condition status. Defaults to True."', args=[d.arg(name='status', type=d.T.string)]),
-            withStatus(status): { status: status },
             '#withType':: d.fn(help='"Specifies the required Pod condition type. To match a pod condition it is required that specified type equals the pod condition type."', args=[d.arg(name='type', type=d.T.string)]),
             withType(type): { type: type },
           },
