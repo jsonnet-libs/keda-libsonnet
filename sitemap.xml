@@ -2,147 +2,147 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.6/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.6/keda/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.6/keda/v1alpha1/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.6/keda/v1alpha1/clusterTriggerAuthentication/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.6/keda/v1alpha1/scaledJob/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.6/keda/v1alpha1/scaledObject/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.6/keda/v1alpha1/triggerAuthentication/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.7/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.7/keda/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.7/keda/v1alpha1/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.7/keda/v1alpha1/clusterTriggerAuthentication/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.7/keda/v1alpha1/scaledJob/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.7/keda/v1alpha1/scaledObject/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.7/keda/v1alpha1/triggerAuthentication/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.8/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.8/keda/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.8/keda/v1alpha1/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.8/keda/v1alpha1/clusterTriggerAuthentication/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.8/keda/v1alpha1/scaledJob/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.8/keda/v1alpha1/scaledObject/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.8/keda/v1alpha1/triggerAuthentication/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.9/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.9/keda/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.9/keda/v1alpha1/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.9/keda/v1alpha1/clusterTriggerAuthentication/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.9/keda/v1alpha1/scaledJob/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.9/keda/v1alpha1/scaledObject/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.9/keda/v1alpha1/triggerAuthentication/</loc>
-         <lastmod>2023-02-20</lastmod>
+         <lastmod>2023-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
