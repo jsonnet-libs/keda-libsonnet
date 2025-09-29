@@ -2,202 +2,262 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.10/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.10/keda/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.10/keda/v1alpha1/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.10/keda/v1alpha1/clusterTriggerAuthentication/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.10/keda/v1alpha1/scaledJob/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.10/keda/v1alpha1/scaledObject/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.10/keda/v1alpha1/triggerAuthentication/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.11/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.11/keda/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.11/keda/v1alpha1/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.11/keda/v1alpha1/clusterTriggerAuthentication/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.11/keda/v1alpha1/scaledJob/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.11/keda/v1alpha1/scaledObject/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.11/keda/v1alpha1/triggerAuthentication/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.12/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.12/keda/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.12/keda/v1alpha1/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.12/keda/v1alpha1/clusterTriggerAuthentication/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.12/keda/v1alpha1/scaledJob/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.12/keda/v1alpha1/scaledObject/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.12/keda/v1alpha1/triggerAuthentication/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.13/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.13/keda/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.13/keda/v1alpha1/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.13/keda/v1alpha1/clusterTriggerAuthentication/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.13/keda/v1alpha1/scaledJob/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.13/keda/v1alpha1/scaledObject/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.13/keda/v1alpha1/triggerAuthentication/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.14/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.14/keda/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.14/keda/v1alpha1/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.14/keda/v1alpha1/clusterTriggerAuthentication/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.14/keda/v1alpha1/scaledJob/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.14/keda/v1alpha1/scaledObject/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.14/keda/v1alpha1/triggerAuthentication/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.15/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.15/keda/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.15/keda/v1alpha1/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.15/keda/v1alpha1/clusterTriggerAuthentication/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.15/keda/v1alpha1/scaledJob/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.15/keda/v1alpha1/scaledObject/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.15/keda/v1alpha1/triggerAuthentication/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.16/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.16/eventing/</loc>
+         <lastmod>2025-09-29</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.16/eventing/v1alpha1/</loc>
+         <lastmod>2025-09-29</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.16/eventing/v1alpha1/cloudEventSource/</loc>
+         <lastmod>2025-09-29</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.16/eventing/v1alpha1/clusterCloudEventSource/</loc>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.16/keda/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.16/keda/v1alpha1/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.16/keda/v1alpha1/clusterTriggerAuthentication/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.16/keda/v1alpha1/scaledJob/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.16/keda/v1alpha1/scaledObject/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.16/keda/v1alpha1/triggerAuthentication/</loc>
-         <lastmod>2025-02-12</lastmod>
+         <lastmod>2025-09-29</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.17/</loc>
+         <lastmod>2025-09-29</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.17/eventing/</loc>
+         <lastmod>2025-09-29</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.17/eventing/v1alpha1/</loc>
+         <lastmod>2025-09-29</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.17/eventing/v1alpha1/cloudEventSource/</loc>
+         <lastmod>2025-09-29</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.17/eventing/v1alpha1/clusterCloudEventSource/</loc>
+         <lastmod>2025-09-29</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.17/keda/</loc>
+         <lastmod>2025-09-29</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.17/keda/v1alpha1/</loc>
+         <lastmod>2025-09-29</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.17/keda/v1alpha1/clusterTriggerAuthentication/</loc>
+         <lastmod>2025-09-29</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.17/keda/v1alpha1/scaledJob/</loc>
+         <lastmod>2025-09-29</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.17/keda/v1alpha1/scaledObject/</loc>
+         <lastmod>2025-09-29</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/keda-libsonnet/2.17/keda/v1alpha1/triggerAuthentication/</loc>
+         <lastmod>2025-09-29</lastmod>
     </url>
 </urlset>
